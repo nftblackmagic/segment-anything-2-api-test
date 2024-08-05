@@ -71,11 +71,11 @@ def annotate_frame(frame_idx, frame_names, video_dir, points=None, labels=None, 
     width, height = fig.canvas.get_width_height()
     img_data = np.frombuffer(fig.canvas.tostring_rgb(), dtype=np.uint8).reshape(height, width, 3)
     
-    # Save the figure locally for debugging
-    debug_output_dir = "./debug_frames"
-    os.makedirs(debug_output_dir, exist_ok=True)
-    debug_frame_path = os.path.join(debug_output_dir, f"frame_{frame_idx}.png")
-    plt.savefig(debug_frame_path)
+    # # Save the figure locally for debugging
+    # debug_output_dir = "./debug_frames"
+    # os.makedirs(debug_output_dir, exist_ok=True)
+    # debug_frame_path = os.path.join(debug_output_dir, f"frame_{frame_idx}.png")
+    # plt.savefig(debug_frame_path)
     
     plt.close(fig)
     
