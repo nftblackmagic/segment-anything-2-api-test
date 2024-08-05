@@ -54,6 +54,20 @@ or individually from:
 
 Then SAM 2 can be used in a few lines as follows for image and video prediction.
 
+### Run the flask api for video
+launch the flask endpoint
+```bash
+python flask_api.py 
+```
+
+run the unit test 
+```bash
+python test_flask_api.py
+```
+
+The result will be under static dir.
+
+
 ### Image prediction
 
 SAM 2 has all the capabilities of [SAM](https://github.com/facebookresearch/segment-anything) on static images, and we provide image prediction APIs that closely resemble SAM for image use cases. The `SAM2ImagePredictor` class has an easy interface for image prompting.
