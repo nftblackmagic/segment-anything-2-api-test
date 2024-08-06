@@ -57,12 +57,12 @@ Then SAM 2 can be used in a few lines as follows for image and video prediction.
 ### Run the flask api for video
 launch the flask endpoint
 ```bash
-python flask_api.py 
+flask run --host=0.0.0.0 --port=5000
 ```
 
 run the unit test 
 ```bash
-python test_flask_api.py
+python api_image_test_call.py  video_setting.json
 ```
 
 The result will be under static dir.
