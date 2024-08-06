@@ -1,0 +1,18 @@
+{
+    "video_source": "https://upcdn.io/FW25b7k/raw/uploads/test.mp4",
+    "clicks": [
+        {
+            "points": [
+                [
+                    603,
+                    866
+                ]
+            ],
+            "labels": [
+                1
+            ],
+            "ann_frame_idx": 10,
+            "ann_obj_id": 1
+        }
+    ]
+}
